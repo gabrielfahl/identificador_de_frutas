@@ -1,0 +1,12 @@
+# Ignorar o Dataset (Pasta pesada)
+fruits-360/
+
+# Ignorar arquivos temporários do Python (Lixo)
+__pycache__/
+*.pyc
+
+# Ignorar Ambiente Virtual (Se tiver criado)
+venv/
+env/
+.env
+.venv/
