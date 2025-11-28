@@ -13,7 +13,3 @@ async def predict(file: UploadFile = File(...)):
 @app.get("/")
 async def read_index():
     return FileResponse("index.html")
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="localhost", port=8000)
